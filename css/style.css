@@ -638,16 +638,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon {
-  background: #fff;
-  border: 2px solid rgba(3, 99, 16, 0.9);
+  background: #0366fc;
+  border: 2px solid #fff;
 }
 
 #services .box:hover .icon i {
-  color: rgba(3, 99, 16, 0.9);
+  color: #fff;
 }
 
 #services .box:hover .icon a {
-  color: rgba(3, 99, 16, 0.9);
+  color: #fff;
 }
 
 #services .title {
@@ -708,8 +708,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: rgba(3, 99, 16, 0.9);
-  border: 2px solid rgba(3, 99, 16, 0.9);
+  background: #0366fc;
+  border: 2px solid #0366fc;
 }
 
 /* Portfolio Section
@@ -872,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: rgba(3, 99, 16, 0.9);
+  color: rgba(2, 61, 10, 0.9);
   float: left;
 }
 
@@ -906,13 +906,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: rgba(3, 99, 16, 0.9);
+  background: #0366fc;
   color: #fff;
 }
 
 #contact .form #sendmessage {
-  color: rgba(3, 99, 16, 0.9);
-  border: 1px solid rgba(3, 99, 16, 0.9);
+  color: rgba(2, 61, 10, 0.9);
+  border: 1px solid rgba(2, 61, 10, 0.9);
   display: none;
   text-align: center;
   padding: 15px;
@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: rgba(3, 99, 16, 0.9);
+  background: rgba(2, 61, 10, 0.9);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -957,7 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: rgba(3, 99, 16, 0.9);
+  background: #0366fc;
 }
 
 /*--------------------------------------------------------------
