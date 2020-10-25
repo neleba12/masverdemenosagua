@@ -7,6 +7,7 @@
   <meta content="cesped, artificial, cesped-artificial, diseño, diseño-interiores, diseño-exteriores" name="keywords">
   <meta content="Césped Artificial S.L. Empresa dedicada a la instalación de césped artificial, con más de 15 años de experiencia en el sector." name="description">
   <meta name="google-site-verification" content="R9GFXYEt9VA9VnYU70o2dydFCcC6rF6o94aC0F5ozf8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicons -->
   <link href="img/icon.png" rel="icon">
@@ -24,6 +25,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- =======================================================
     Theme Name: Regna
@@ -53,7 +55,7 @@
           <li><a href="#about">Sobre nosotros</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#portfolio">Trabajos</a></li>
-          <li><a href="#team">Equipo</a></li>
+          <!-- <li><a href="#team">Equipo</a></li> -->
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -141,23 +143,24 @@
         <div class="row counters">
 
   				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">200</span>
+            <p>Más de </p>
+            <span data-toggle="counter-up">1000</span>
             <p>Clientes</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1000</span>
+            <span data-toggle="counter-up">2000</span>
             <p>Proyectos</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
+            <span data-toggle="counter-up">20</span>
             <p>Años</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">5</span>
-            <p>Trabajadores</p>
+            <span data-toggle="counter-up">3</span>
+            <p>Marcas registradas</p>
   				</div>
 
   			</div>
@@ -253,145 +256,297 @@
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-garden, .filter-park, .filter-sport, .filter-openspace" class="filter-active">All</li>
+              <li data-filter=".filter-garden">Jardines</li>
+              <li data-filter=".filter-park">Parques</li>
+              <li data-filter=".filter-sport">Pistas</li>
+              <li data-filter=".filter-openspace">Espacios</li>
+              <li data-filter=".filter-work">Instalacion</li>
             </ul>
           </div>
-        </div>
 
-        <div class="row" id="portfolio-wrapper">
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app1.jpg" alt="">
+<!-- Filter garden -->
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+              <img src="img/garden/jardin1.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>App 1</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web2.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin2.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Web 2</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app3.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin3.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>App 3</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card1.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin4.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Card 1</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card2.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin5.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Card 2</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web3.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin6.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Web 3</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin7.jpg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Card 3</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app2.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin8.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>App 2</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo1.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-garden">
+             
+              <img src="img/garden/jardin9.jpeg" alt="Jardin cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Logo 1</h4>
-                <span>Alored dono par</span>
+                <h4>Jardin vivienda</h4>
+                <span>Vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo3.jpg" alt="">
+<!-- Filter garden -->
+<!-- Filter park -->
+          <div class="col-lg-3 col-md-6 portfolio-item filter-park">
+             
+              <img src="img/park/parque1.jpeg" alt="Parque cesped artificial">
               <div class="details">
-                <h4>Logo 3</h4>
-                <span>Alored dono par</span>
+                <h4>Parque</h4>
+                <span>Parque infantil</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web1.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-park">
+             
+              <img src="img/park/parque2.jpg" alt="Parque cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Web 1</h4>
-                <span>Alored dono par</span>
+                <h4>Parque</h4>
+                <span>Parque infantil vivienda</span>
               </div>
-            </a>
+            
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo2.jpg" alt="">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-park">
+             
+              <img src="img/park/parque3.jpeg" alt="Parque cesped artificial" onclick="onClick(this)">
               <div class="details">
-                <h4>Logo 2</h4>
-                <span>Alored dono par</span>
+                <h4>Parque</h4>
+                <span>Parque</span>
               </div>
-            </a>
+            
           </div>
-
+<!-- Filter park -->
+<!-- Filter sport -->
+          <div class="col-lg-3 col-md-6 portfolio-item filter-sport">
+             
+              <img src="img/sport/pista1.jpg" alt="Pista deportiva cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Pista deportiva</h4>
+                <span>Pista deportiva</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-sport">
+             
+              <img src="img/sport/pista2.jpeg" alt="Pista deportiva cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Pista deportiva</h4>
+                <span>Pista de padel</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-sport">
+             
+              <img src="img/sport/pista3.jpeg" alt="Pista deportiva cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Pista deportiva</h4>
+                <span>Pista de padel</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-sport">
+             
+              <img src="img/sport/pista4.jpeg" alt="Pista deportiva cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Pista deportiva</h4>
+                <span>Pista de padel</span>
+              </div>
+            
+          </div>
+<!-- Filter sport -->
+<!-- Filter openspace -->
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp1.jpeg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Zonas de paso</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp2.jpg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Zonas de paso</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp3.jpg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Zonas de paso</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp4.jpeg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Zonas de paso</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp5.jpg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Toldos</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-openspace">
+             
+              <img src="img/openspace/esp6.jpg" alt="Espacios decorados con cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Espacios abiertos</h4>
+                <span>Toldos</span>
+              </div>
+            
+          </div>
+<!-- Filter openspace -->
+<!-- Filter work -->
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+             
+              <img src="img/work/trabajo1.jpg" alt="Instalación de cesped artificial">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+             
+              <img src="img/work/trabajo2.jpg" alt="Instalación de cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+             
+              <img src="img/work/trabajo3.jpeg" alt="Instalación de cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+             
+              <img src="img/work/trabajo4.jpeg" alt="Instalación de cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+             
+              <img src="img/work/trabajo5.jpg" alt="Instalación de cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-work">
+            
+              <img src="img/work/trabajo6.jpeg" alt="Instalación de cesped artificial" onclick="onClick(this)">
+              <div class="details">
+                <h4>Instalación</h4>
+                <span>Proceso de instalación</span>
+              </div>
+            
+          </div>
+<!-- Filter work -->
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section>
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+      <div class="w3-modal-content w3-animate-zoom">
+        <img id="img01" style="width:100%">
+      </div>
+    </div>
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+      </script>
+    <!-- #portfolio -->
 
     <!--==========================
       Team Section
     ============================-->
-    <section id="team">
+    <!-- <section id="team">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Equipo</h3>
@@ -428,7 +583,8 @@
           
 
       </div>
-    </section><!-- #team -->
+    </section> -->
+    <!-- #team -->
 
     <!--==========================
       Contact Section
@@ -443,7 +599,8 @@
 
       <!-- Uncomment below if you wan to use dynamic maps -->
       
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100897.82244544089!2d-1.5227201166186084!3d37.78870506982728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd648fc1094fd46f%3A0xfea40fd793d481cf!2sPoligono%20Industrial%20El%20Saladar!5e0!3m2!1ses!2ses!4v1601334554938!5m2!1ses!2ses" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100897.82244544089!2d-1.5227201166186084!3d37.78870506982728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd648fc1094fd46f%3A0xfea40fd793d481cf!2sPoligono%20Industrial%20El%20Saladar!5e0!3m2!1ses!2ses!4v1601334554938!5m2!1ses!2ses" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
 
@@ -479,7 +636,7 @@
           <div class="col-lg-5 col-md-8">
             <div class="form">
               <div id="sendmessage">Hemos recibido tu mensaje. ¡Gracias!</div>
-              <div id="errormessage"></div>
+              <div id="errormessage">Ha surgido un problema y no pudimos enviar tu mensaje. Inténtalo más tarde, o contacta directamente con cesped@menosagua.com</div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
