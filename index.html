@@ -388,7 +388,7 @@
 <!-- Filter park -->
           <div class="col-lg-3 col-md-6 portfolio-item filter-park">
              
-              <img src="img/park/parque1.jpeg" alt="Parque cesped artificial">
+              <img src="img/park/parque1.jpeg" alt="Parque cesped artificial" onclick="onClick(this)">
               <div class="details">
                 <h4>Parque</h4>
                 <span>Parque infantil</span>
@@ -511,7 +511,7 @@
 <!-- Filter work -->
           <div class="col-lg-3 col-md-6 portfolio-item filter-work">
              
-              <img src="img/work/trabajo1.jpg" alt="Instalación de cesped artificial">
+              <img src="img/work/trabajo1.jpg" alt="Instalación de cesped artificial" onclick="onClick(this)">
               <div class="details">
                 <h4>Instalación</h4>
                 <span>Proceso de instalación</span>
@@ -578,6 +578,7 @@
       function onClick(element) {
         document.getElementById("img01").src = element.src;
         document.getElementById("modal01").style.display = "block";
+        document.getElementById("modal01").style.alignItems = "center";
       }
       </script>
     <!-- #portfolio -->
