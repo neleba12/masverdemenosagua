@@ -15,16 +15,16 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: Setup MSBuild path
+    #- name: Setup MSBuild path
       # uses: microsoft/setup-msbuild@v1.0.0
 
-    - name: Setup NuGet
+    #- name: Setup NuGet
       # uses: NuGet/setup-nuget@v1.0.2
 
-    - name: Restore NuGet packages
+    #- name: Restore NuGet packages
       # run: nuget restore
 
-    - name: Publish to folder
+    #- name: Publish to folder
       # run: msbuild /p:Configuration=Release /p:DeployOnBuild=true /t:WebPublish /p:WebPublishMethod=FileSystem /p:publishUrl=./published/ /p:PackageAsSingleFile=false
 
     - name: Deploy to Azure Web App
