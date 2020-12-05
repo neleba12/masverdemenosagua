@@ -704,7 +704,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 768px) {
   #resources {
-    background:  linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),url(../img/backgroud/back3.jpeg) fixed center no-repeat;
+    background:  linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),url(../img/backgroud/back3.jpeg) center no-repeat;
     background-size: cover;
   }
 }
@@ -789,7 +789,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (max-width: 768px) {
   #call-to-action {
-    background:  url(../img/backgroud/back1.jpeg) fixed bottom center;
+    background:  url(../img/backgroud/back1.jpeg) bottom center;
     background-size: cover;
   }
 }
