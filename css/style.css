@@ -618,6 +618,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   color: var(--white);
 }
+#facts .section-description {
+  color: var(--nav-menu);
+}
 
 /* Services Section
 --------------------------------*/
@@ -769,7 +772,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: var(--white);
 }
 #resources .section-description{
-  color: black;
+  color: var(--white);
 }
 /* Call To Action Section
 --------------------------------*/
