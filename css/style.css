@@ -774,7 +774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background:  url(../img/services/padel.jpg) fixed top center;
+  background:  url(../img/backgroud/back1.jpeg) fixed bottom center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -813,8 +813,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: var(--nav-menu);
-  border: 2px solid var(--nav-menu);
+  background: var(--main-blue);
+  border: 2px solid var(--main-blue);
 }
 
 /* Portfolio Section
