@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #hero {
     background-attachment: fixed;
   }
@@ -704,9 +704,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   position: relative;
 }
-@media (min-width: 512px) {
+@media (min-width: 768px) {
   #resources {
-    background-attachment: fixed;
+    background:  linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),url(../img/backgroud/back3.jpeg) center no-repeat;
   }
 }
 
@@ -790,9 +790,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   position: relative;
 }
-@media (min-width: 512px) {
+@media (min-width: 768px) {
   #call-to-action {
-    background-attachment: fixed;
+    background:  url(../img/backgroud/back1.jpeg) bottom center;
   }
 }
 
