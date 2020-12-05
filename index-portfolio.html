@@ -47,11 +47,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <table>
-          <td><a href="index.html#hero"><img src="img/logos/cesped-artificial.png" alt="logo" title="cesped-artificial" height="35" /></img></a></td><td></td>
-          <td><a href="index.html#hero"><img src="img/logos/logo.png" alt="logo" title="masverdemenosagua" height="35" /></img></a></td><td></td>
-          <td><a href="index.html#hero"><img src="img/logos/golfinnR.png" alt="logo" title="golfinn" height="35" /></img></a></td><td></td>
-        </table>
+        <a href="index.html#hero"><img src="img/logos/logo.png" alt="logo" title="masverdemenosagua" height="35" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -59,25 +55,29 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li><a href="index.html#hero">Inicio</a></li>
-          <li><a href="index.html#about">Sobre nosotros</a></li>
-          <li><a href="index.html#services">Servicios</a></li>
-          <li class="menu-active"><a href="#portfolio">Trabajos</a></li>
+          <li class="menu-has-children"><a href="index.html#about">Sobre nosotros</a>
+            <ul>
+              <li><a href="index.html#facts">Hechos</a></li>
+              <li><a href="index.html#services">Servicios</a></li>
+              <li><a href="index.html#resources">Materiales</a></li>
+            </ul>
+          </li>
+          <li  class="menu-active"><a href="#portfolio">Trabajos</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
-
     <!--==========================
       Portfolio Section
     ============================-->
     <section id="portfolio">
       <div class="container wow fadeInUp">
-        <div class="section-header">
+        <!-- <div class="section-header">
           <h3 class="section-title">Trabajos</h3>
           <p class="section-description">Nuestros trabajos nos definen.</p>
-        </div>
+        </div> -->
         <div class="row">
 
           <div class="col-lg-12">
@@ -358,7 +358,23 @@
     </section>
     
     <!-- #portfolio -->
+<!--==========================
+    Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Infórmate</h3>
+            <p class="cta-text">Si estás planteándote contratar nuestros servicios, contacta con nosotros para obtener un presupuesto</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Dar el paso</a>
+          </div>
+        </div>
 
+      </div>
+    </section><!-- #call-to-action -->
     <!--==========================
       Contact Section
     ============================-->
@@ -386,22 +402,18 @@
               </div>
 
               <div>
-                <i class="fa fa-envelope"></i>
+                <a href="mailto:masverde@menosagua.com"><i class="fa fa-envelope"></i></a>
                 <p>masverde@menosagua.com</p>
               </div>
 
               <div>
-                <i class="fa fa-phone"></i>
+                <a href="tel:690848185"><i class="fa fa-phone"></i></a>
                 <p>+34 690848185</p>
               </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <div>
+                <a href="https://www.facebook.com/C%C3%A9sped-Artificial-SL-120097081426296/" class="facebook"><i class="fa fa-facebook"></i></a>
+                <p>Facebook</p>
+              </div>
             </div>
 
           </div>
@@ -439,19 +451,24 @@
 
   </main>
 
-  <!--==========================
+    <!--==========================
     Footer
   ============================-->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-
+        <div id="logo" class="pull-left">
+          <img src="img/logos/logo.png" alt="logo" title="masverdemenosagua" height="35" /></img>
+        </div>
+      
+        <!-- <div class="copyright">
+          <img src="img/logos/cesped-artificial.png" alt="logo" title="cespedartificial" height="35" /></img>
+        </div> -->
       </div>
-    </div>
-
+    </div> 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Césped Artificial, S.L.</strong>
+        <strong>Césped Artificial, S.L. &reg</strong>
       </div>
     </div>
   </footer><!-- #footer -->
