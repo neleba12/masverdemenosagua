@@ -780,6 +780,98 @@ body.mobile-nav-active #mobile-nav-toggle {
 #resources .section-description{
   color: var(--white);
 }
+/* Download Section
+--------------------------------*/
+#downloads {
+  background: var(--white);
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#downloads .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid  #e6e6e6;
+  height: 250px;
+  position: relative;
+  background: #fafafa;
+}
+
+#downloads .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: var(--main-green);
+}
+
+#downloads .icon a {
+  display: inline-block;
+}
+
+#downloads .icon i {
+  color: var(--white);
+  font-size: 24px;
+}
+
+#downloads .box:hover .icon {
+  background: var(--main-blue);
+  border: 2px solid var(--white);
+}
+
+#downloads .box:hover .icon i {
+  color: var(--white);
+}
+
+#downloads .box:hover .icon a {
+  color: var(--white);
+}
+
+#downloads .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+#downloads .title a {
+  color: var(--nav-menu);
+}
+
+#downloads .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+#downloads .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* display: inline-block; */
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid var(--main-green);
+  color: var(--main-green);
+}
+
+#downloads .cta-btn:hover {
+  background: var(--main-blue);
+  border: 2px solid var(--main-blue);
+}
+
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
