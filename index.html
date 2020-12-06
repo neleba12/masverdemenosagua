@@ -298,17 +298,17 @@
             <div class="form">
               <div id="sendmessage">Hemos recibido tu mensaje. ¡Gracias!</div>
               <div id="errormessage">Ha surgido un problema y no pudimos enviar tu mensaje. Inténtalo más tarde, o contacta directamente con cesped@menosagua.com</div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form id="contactForm" role="form" class="contactForm">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:3" data-msg="Por favor, introduzca mínimo tres letras" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" data-rule="email" data-msg="Por favor, introduzca un email válido" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor, introduzca mínimo tres letras" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -325,6 +325,7 @@
       </div>
     </section><!-- #contact -->
 
+    
   </main>
 
   <!--==========================
@@ -371,6 +372,36 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
+  <script>
+    var name,fromAddress, subject, content;
+    $("#dataForm").submit(function(event) {
+        event.preventDefault();
+        name =$(this).find('input[name="name"]').val();
+        fromAddress =$(this).find('input[name="email"]').val();
+        subject =$(this).find('input[name="subject"]').val();
+        content =$(this).find('textarea[name="message"]').val();
+
+        sendEmail(name, fromAddress, subject, content);
+    });
+
+    function sendEmail(name, fromAddress, subject, content)
+    {
+      var body = 
+      {
+      "fromAddress": "neleba12@zohomail.eu",
+      "toAddress": fromAddress,
+      "bccAddress": "neleba12@zohomail.eu",
+      "subject": "Contact form received: "+subject,
+      "content": "Dear "+name+", thank you for contacting us! We will answer as soon as possible. \n"+content
+      };
+      var client = new RestClient("https://mail.zoho.com/api/accounts/20074034640/messages");
+      var request = new RestRequest(Method.POST);
+      request.AddHeader("Content-Type", "application/json");
+      request.AddParameter("accountId", "20074034640");
+      request.AddParameter("application/json", body, ParameterType.RequestBody);
+      client.Execute(request);
+    }
+  </script>
   
 </body>
 </html>
